@@ -1,4 +1,4 @@
-import { db } from '@/lib/firebase';
+import { db } from '@/lib/firebaseAdmin';
 import { verifyWebhook } from '@clerk/nextjs/webhooks';
 import { NextRequest, NextResponse } from 'next/server';
 
